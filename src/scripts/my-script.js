@@ -64,6 +64,7 @@ document.bomb = {
         this.timeoutId = setTimeout(() => this.evaluate(), 1000);
     },
     explode: function () {
+        document.getElementById('youtubeFrame').style.visibility = 'visible';
         this.playSound('hq-explosion-6288.mp3');
     }
 }
