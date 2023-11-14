@@ -1,0 +1,113 @@
+#container {
+    background-image: url("../assets/images/Depositphotos_43107453_l-2015_2x.webp");
+    width: 2000px;
+    height: 972px;
+    position: relative;
+}
+
+.button {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    opacity: 0;
+}
+
+#min1 {
+    background-color: yellow;
+    left: 1070px;
+    top: 335px;
+}
+
+#min2 {
+    background-color: green;
+    left: 1140px;
+    top: 335px;
+}
+
+#min3 {
+    background-color: blue;
+    left: 1210px;
+    top: 335px;
+}
+
+#down {
+    background-color: purple;
+    left: 1070px;
+    top: 400px;
+}
+
+#up {
+    background-color: aqua;
+    left: 1140px;
+    top: 400px;
+}
+
+#reset {
+    background-color: orange;
+    left: 1070px;
+    top: 470px;
+}
+
+#stop {
+    background-color: pink;
+    left: 1140px;
+    top: 470px;
+}
+
+#start {
+    background-color: red;
+    left: 1210px;
+    top: 400px;
+    height: 120px;
+}
+
+.txtButton {
+    position: fixed;
+    color: whitesmoke;
+    background-color: #424340;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+
+#txtMinute1 {
+    left: 1070px;
+    top: 385px;
+}
+
+#txtMinute2 {
+    left: 1135px;
+    top: 385px;
+}
+
+#txtMinute3 {
+    left: 1205px;
+    top: 385px;
+}
+
+#txtDown {
+    left: 1075px;
+    top: 455px;
+}
+
+#txtUp {
+    left: 1140px;
+    top: 455px;
+}
+
+#txtRestart {
+    left: 1065px;
+    top: 525px;
+    background-color: #5D5B5A;
+}
+
+#txtStop {
+    left: 1145px;
+    top: 525px;
+    background-color: #5D5B5A;
+}
+
+#txtStart {
+    left: 1200px;
+    top: 525px;
+    background-color: #5D5B5A;
+}
